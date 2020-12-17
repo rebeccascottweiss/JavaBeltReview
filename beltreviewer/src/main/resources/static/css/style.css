@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%; 
+    margin: 1rem auto;
+    padding: 3rem;  
+}
+
+header{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.container{
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+div.wrapper{
+	width: 40%; 
+    padding: 1rem; 
+}
+
+div.display{
+	border: 2px solid black; 
+}
+
+h2.form-heading{
+    padding: .25rem .25rem; 
+    margin: 0rem 2.5rem;
+    background: white; 
+    z-index: 1;
+    position: relative; 
+    width: fit-content;
+}
+
+form{
+    border: 2px solid black;
+    padding: 1rem; 
+    margin: -1rem 1rem 2rem 1rem; 
+}
+
+.form-group{
+	display: flex; 
+	justify-content: start; 
+	align-items: center; 
+	padding: .2em; 
+}
+
+label, span.label{
+    width: 10em; 
+}
+
+select{
+	margin-left:.5em; 
+}
+
+
+input[type=submit]{
+    padding: .25rem; 
+    box-shadow: 1px silver; 
+    text-align: center;
+    float: none; 
+    margin: .25rem auto; 
+    justify-self: flex-end; 
+}
+
+table{
+    border: 1px solid black; 
+    border-collapse: collapse;
+    width: 70%; 
+    margin: 1em; 
+}
+
+thead{
+    background: lightgrey; 
+    border-bottom: 1px solid black; 
+}
+
+
+
+th, td{
+    border-right: 1px solid black; 
+    padding:0em .4em; 
+}
+
+tr:nth-child(even){
+    background-color: lightgrey;
+}
+
+a.button{
+    border: 1px solid black;
+    background: lightgray; 
+    box-shadow: 2px 2px black;
+    padding: .25em; 
+    text-decoration: none; 
+    color: black; 
+}
+
+.logout{
+	float: right; 
+}
+
+#linkStyle{
+	border: 0; 
+	background-color: transparent; 
+	text-decoration: underline; 
+	cursor: pointer; 
+	color: blue; 
+}
+
+#linkStyle:visited{
+	color: purple; 
+}
+
+form#cancel{
+	border:0; 
+	margin:0; 
+	padding:0; 
+	display:inline; 
+	
+}
